@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14_CSS</title>
+    <style>
+        body{
+            background-image: url(Animated.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        div{
+            background-color: rgba(21, 21, 21, 0.56);
+            color: white;
+            border-radius: 5px;
+            position: relative;
+            top: 10px;
+            left: 2%;
+            width: 1020px;
+            height: 550px;
+        }
+
+        h1{
+            position: relative;
+            top: 14px;
+            left: 3%;
+        }
+
+        table{
+            
+            position: relative;
+            top: 15px;
+            left: 1%;
+        }
+        input{
+            height: 40px;
+            width: 300px;
+            border-radius: 5px;
+            border:2px solid
+        }
+
+        button{
+            height: 40px;
+            width: 470px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>Customer Registereoin Form</h1>
+        <table cellspacing= "20">
+                <td>Name<br><input type="text" name="" placeholder="Enter Your Name"></td>
+                <td>Sub Name<br><input type="text" name="" placeholder="Enter Your Sub Namme"></td>
+                <td>User Name<br><input type="text" name="" placeholder="Enter Your User Name"></td>
+            </tr>
+            <tr>
+                <td>email<br><input type="email" name="email" placeholder="Enter Your Email"></td>
+                <td>Password<br><input type="password" name="password" placeholder="Enter Your Password"></td>
+                <td>Confirm Password<br><input type="password" name="password" placeholder="Confirm Password"></td>
+            </tr>
+            <tr>
+                <td>Mobile<br><input type="tel" name="" placeholder="Enter Your Phone Number"></td>
+                <td rowspan="3">Address<br><textarea style="border-radius: 5px; border:1px solid" name="address" id="" cols="39" rows="5" placeholder="Enter Your Address"></textarea></td>
+                <td >Ocation<br><input type="text" name="" placeholder="Enter Ocation"></td>
+            </tr>
+            <tr>
+                <td>.</td>
+            </tr>
+            
+        </table>
+        <table cellspacing= "20">
+            <tr>
+                <td><button style="color: white; background-color: blue;">Submit</button></td>
+                <td><button style="color: white; background-color: yellow;">Reset</button></td>
+            </tr>
+        </table>
+        <table>
+            <br>
+            <tr>
+                <td style="position: relative; left: 260px;"><button style="color: white; background-color: red;">Back To Home</button></td>
+            </tr>
+        </table>
+    </div>
+    <marquee style="margin-top: -4px; height: 75px;"><h1 style="color: aliceblue;">This Web Page Has been Created By: <u>Ankit Mishra</u></h1> </marquee>
+</body>
+</html>
