@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16_CSS</title>
+    <style>
+        *{
+            margin: px;
+            padding: 0px;
+        }
+        body{ 
+            background-image: url(Animated.gif);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .divc1{
+            background-color: red;
+            height: 60px;
+            width: 60px;
+            display: inline-block;
+
+        }
+        .divc2{
+            background-color: greenyellow;
+            height: 60px;
+            width: 60px;
+            display: inline-block;
+
+        }
+        .divc3{
+            background-color: green;
+            height: 60px;
+            width: 60px;
+            display: inline-block;
+        }
+        .divc4{
+            background-color: blueviolet;
+            height: 60px;
+            width: 60px;
+            display: inline-block;
+
+        }
+        .divc5{
+            background-color: blue;
+            height: 60px;
+            width: 60px;
+            display: inline-block;
+            
+        }
+
+        /* horizontal up */
+        .div1{
+            margin-top: 10px;
+            margin-left: 30px;
+            background-color: aqua;
+            height: 60px;
+            width:660px;
+            
+        }
+        .div2{
+            margin-top: 60px;
+            margin-left: 150px;
+            background-color: rgb(255, 0, 128);
+            height: 60px;
+            width:420px;
+            
+        }
+        .div3{
+            margin-top: 60px;
+            margin-left: 270px;
+            background-color: rgb(255, 0, 128);
+            height: 60px;
+            width:180px;
+            
+        }
+
+        /* horizontal down */
+        .div4{
+            margin-top: 120px;
+            margin-left: 270px;
+            background-color: rgb(255, 0, 128);
+            height: 60px;
+            width:300px;
+            
+        }
+        .div5{
+            margin-top: 60px;
+            margin-left: 150px;
+            background-color: rgb(70, 55, 63);
+            height: 60px;
+            width:540px;
+            
+        }
+
+        /* vertical left */
+        .div6{
+            margin-top: -570px;
+            margin-left: 30px;
+            background-color: rgb(70, 55, 63);
+            width: 60px;
+            height:540px;
+            color: beige;
+            
+        }
+        .div7{
+            margin-top: -420px;
+            margin-left: 150px;
+            background-color: rgb(70, 55, 63);
+            width: 60px;
+            height:360px;
+            
+        }
+        .div8{
+            margin-top: -240px;
+            margin-left: 270px;
+            background-color: rgb(70, 55, 63);
+            width: 60px;
+            height:120px;
+            
+        }
+        .div9{
+            margin-top: -141px;
+            margin-left: 390px;
+            background-color: rgb(70, 55, 63);
+            width: 60px;
+            height:60px;
+            color: beige;
+            
+        }
+        .div10{
+            margin-top: -180px;
+            margin-left: 510px;
+            background-color: rgb(70, 55, 63);
+            width: 60px;
+            height:240px;
+            
+        }
+        .div11{
+            margin-top: -359px;
+            margin-left: 630px;
+            background-color: rgb(70, 55, 63);
+            width: 60px;
+            height:480px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div style="display: inline-block; height: 640px; width: 730px; background-color: rgba(244, 247, 246, 0);">
+        <!-- horizontal up -->
+        <div class="div1">
+            <div class="divc1"></div><div class="divc2"></div><div class="divc3"></div><div class="divc4"></div><div class="divc5"></div><div class="divc1"></div><div class="divc2"></div><div class="divc3"></div><div class="divc4"></div><div class="divc5"></div>
+        </div>
+        <div class="div2">
+            <div class="divc2"></div><div class="divc4"></div><div class="divc1"></div><div class="divc2"></div><div class="divc3"></div><div class="divc5"></div>
+        </div>
+        <div class="div3">
+            <div class="divc2"></div><div class="divc4"></div>
+        </div>
+
+        <!-- horizontal down -->
+        <div class="div4">
+            <div class="divc2"></div><div class="divc4"></div><div class="divc1"></div><div class="divc2"></div>
+        </div>
+        <div class="div5">
+            <div class="divc1"></div><div class="divc2"></div><div class="divc3"></div><div class="divc4"></div><div class="divc5"></div><div class="divc1"></div><div class="divc2"></div><div class="divc3"></div><div class="divc4"></div>
+        </div>
+    </div>
+    <div style="display: inline-block; color: rgb(47, 196, 255);">
+        <marquee style=" margin-left: 200px; margin-top: 0px; width: 280px; height: 540px;" direction="up"><h2>Designed By: <u>Ankit Mishra</u></h2></marquee>
+    </div>
+
+        <!-- vertical -->
+        <div class="div6">
+            <div class="divc4" style="display: block;"></div><div class="divc2"  style="display: block;"></div><div class="divc3"  style="display: block;"></div><div class="divc4"  style="display: block;"></div><div class="divc5"  style="display: block;"></div><div class="divc1"  style="display: block;"></div><div class="divc2"  style="display: block;"></div><div class="divc3"  style="display: block;"></div><h2 style="position: relative; top: -2px; left: 4px;">Start</h2>
+        </div>
+        <div class="div7">
+            <div class="divc4" style="display: block;"></div><div class="divc2"  style="display: block;"></div><div class="divc3"  style="display: block;"></div><div class="divc4"  style="display: block;"></div><div class="divc1"  style="display: block;"></div><div class="divc2"  style="display: block;"></div>
+        </div>
+        <div class="div8">
+            <div class="divc4" style="display: block;"></div><div class="divc3" style="display: block;"></div>
+        </div>
+        <div class="div9">
+            <h2 style="position: relative; top: 20px; left: 8px;">End</h2>
+        </div>
+        <div class="div10">
+            <div class="divc4" style="display: block;"></div><div class="divc2"  style="display: block;"></div><div class="divc3"  style="display: block;"></div><div class="divc4"  style="display: block;"></div>
+        </div>
+        <div class="div11">
+            <div class="divc4" style="display: block;"></div><div class="divc2"  style="display: block;"></div><div class="divc3"  style="display: block;"></div><div class="divc4"  style="display: block;"></div><div class="divc5"  style="display: block;"></div><div class="divc1"  style="display: block;"></div><div class="divc2"  style="display: block;"></div><div class="divc3"  style="display: block;">
+        </div>
+</body>
+</html>
