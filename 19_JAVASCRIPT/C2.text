@@ -1,0 +1,51 @@
+Datatypes in JAVASCRIPT
+  1. integer
+  2. float
+  3. string
+  4. boolean
+  5. array
+  6. object
+  7. null
+
+-------------------------------------------------------------
+
+Operator in JAVASCRIPT
+  1- Arithmatic Operator
+    1. +
+    2. -
+    3. *
+    4. /
+    5. %
+    6. **
+
+  -------------------------------------
+  2- Assignment Operator
+    1. =
+    2. +=
+    3. -=
+    4. /=
+    5. %=
+    6. *=
+    7. **=
+
+  -------------------------------------
+  3- Comparision Operator
+    1. ==
+    2. ===
+    3. !=
+    4. <>
+    5. >=
+    6. <=
+    7. >
+    8. <
+
+  -------------------------------------
+  4- Logical Operator
+    1. &&  ,AND
+    2. ||  ,OR
+    3. !   ,NOT
+      
+  -------------------------------------
+  4- Incrimeent and Decriment Operator
+    1. ++
+    2. --
