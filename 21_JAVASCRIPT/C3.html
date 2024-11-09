@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>21_JAVASCRIPT</title>
+</head>
+<body>
+    <script>
+        //Taking input from user
+        let salary = parseInt(prompt('Enter the salary'));
+        
+        if(salary>10000 && salary<=20000){
+            salary2 = (10*salary)/100;
+            salary2 += salary;
+            document.write('Now Your Salary = ');
+            document.write(salary2);
+        }
+        else if(salary>20000 && salary<=30000){
+            salary2 = (8*salary)/100;
+            salary2 += salary;
+            document.write('Now Your Salary = ');
+            document.write(salary2);
+        }
+        else if(salary>30000 && salary<=40000){
+            salary2 = (5*salary)/100;
+            salary2 += salary;
+            document.write('Now Your Salary = ');
+            document.write(salary2);
+        }
+        else if(salary>40000 && salary<=50000){
+            salary2 = (2*salary)/100;
+            salary2 += salary;
+            document.write('Now Your Salary = ');
+            document.write(salary2);
+        }
+        else{
+            document.write(salary2);
+        }
+    </script>
+</body>
+</html>
