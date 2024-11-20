@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>23_JAVASCRIPT</title>
+</head>
+<body>
+    <script>
+        let arr1 = [
+            ['ankit','word',84],
+            ['hello','english',65],
+            ['also','meaning',52],
+            ['ajay','morning',652],
+        ];
+        
+        document.write("<table border='5px'>");
+        for(let i=0; i<arr1.length; i++){
+
+            document.write('<tr>');
+            for(let j=0; j<3; j++){
+
+                document.write("<td>" + arr1[i][j] + "<td>");
+
+            }
+            document.write("</tr>");
+        }
+        document.write("</table>");
+
+
+        // let i=0;
+        // let j=0;
+        // while( i<arr1.length){
+        //     while(j<3){
+        //         document.write(arr1[i][j] + '<br');
+        //         j++;
+        //     }
+        //     i++;
+        // }
+    </script>
+</body>
+</html>
