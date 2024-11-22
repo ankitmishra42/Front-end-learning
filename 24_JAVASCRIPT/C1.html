@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>24_JAVASCRIPT</title>
+</head>
+<body>
+    <script>
+        let obj={
+            name:"Aman kumar",
+            fname:"Ajay kumar",
+            phone:123498766,
+            city:['lukhnow',"kanpur",'shitapur'],
+            fun:function(){
+                return obj.name
+                return this.name
+
+            }
+        }
+        for (const key in object) {
+            if (Object.hasOwnProperty.call(object, key)) {
+                const element = object[key];
+                document.write(element);
+
+            }
+        }
+        
+        console.log(obj);
+    </script>
+</body>
+</html>
