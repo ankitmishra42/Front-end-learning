@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25_JAVASCRIPT_DOM</title>
+</head>
+<body>
+    <h1 id="sets">Hello word</h1>
+    <input id="gets" type="text" name="maam">
+    <button onclick="fun()">Click here for change</button>
+    <script>
+        function fun(){
+            let obs1 = document.getElementById('gets');
+            let obs2 = document.getElementById('sets');
+            val = obs1.value;
+            obs2.innerHTML = val;
+            
+        }
+    </script>
+</body>
+</html>

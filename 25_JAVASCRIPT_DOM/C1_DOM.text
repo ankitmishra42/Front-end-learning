@@ -1,0 +1,18 @@
+
+
+Methods in js for get and set:
+
+1. document class="getElementById()
+    innerText
+    innerHTML
+    value
+
+2. document class="getElementsByClassName()
+    innerText
+    innerHTML
+    value
+
+3. document class="getElementsByTagName()
+    innerText
+    innerHTML
+    value

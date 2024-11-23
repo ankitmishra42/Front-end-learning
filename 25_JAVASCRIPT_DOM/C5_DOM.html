@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25_JAVASCRIPT_DOM</title>
+</head>
+<body>
+    <input id="num1" type="text" placeholder="Enter frist number">
+    <input id="num2" type="text" placeholder="Enter second number">
+    <button onclick="fun()">Click here to Add</button>
+    <h1 id="sum"></h1>
+    <script>
+        function fun(){
+            let obs1 = document.getElementById('num1');
+            let obs2 = document.getElementById('num2');
+            let obs3 = document.getElementById('sum');
+            let val1 = parseInt(obs1.value);
+            let val2 = parseInt(obs2.value);
+            let val = val1 + val2; 
+            obs3.innerText = 'Sum of '+val1+' and '+val2+' = '+val;
+        }
+    </script>
+</body>
+</html>

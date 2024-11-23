@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25_JAVASCRIPT_DOM</title>
+</head>
+<body>
+    <input id="pass" type="text" placeholder="Enter Password">
+    <input id="cpass" type="text" placeholder="Confirm Password">
+    <button onclick="fun()">Click here to Submit</button>
+    <H1 id="msg"></H1>
+    <script>
+        function fun(){
+            let pass1 = document.getElementById('pass');
+            let pass2 = document.getElementById('cpass');
+            
+            if(pass1.value ===  pass2.value){
+                document.getElementById('msg').innerText = "Welcome!\n You have Enered To The Both Passwords Correctly"; 
+            }
+            else{
+                alert('Password And Confirm Password Both Are Different! Try Again');
+            }
+        }
+    </script>
+</body>
+</html>

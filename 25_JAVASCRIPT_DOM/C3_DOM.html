@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25_JAVASCRIPT_DOM</title>
+</head>
+<body>
+    <h1 id="sets">Hello word</h1>
+    <button onclick="fun()">Click here for change</button>
+    <script>
+        function fun(){
+
+            let obs = document.getElementById('sets');
+            // obs.innerText = 'Hello Ram';
+            obs.innerHTML = '<h5>Hello Ram</h5>';
+            
+        }
+    </script>
+</body>
+</html>
