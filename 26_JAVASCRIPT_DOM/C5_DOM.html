@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25_JAVASCRIPT_DOM</title>
+</head>
+<body>
+    
+    <ol id="setsp">
+        <li>Hi I am ankit mishra</li>
+        <li>Hi I am abhay mishra</li>
+        <li>Hi I am abhinav mishra</li>
+        <li>Hi I am abhinav mishra</li>
+        <li>Hi I am amany mishra</li>
+        <li>Hi I am anju mishra</li>
+        <li>Hi I am amarkant mishra</li>
+    </ol>
+    
+    <button onclick="atg()">click here</button>
+
+    <script>
+        function atg() {
+            let obs = document.getElementsById('setsp');
+            let li = document.createElement('li');
+            let text = document.createTextNode('dfgh');
+            li.appendChild(text);
+            obs.appendChild(li);
+            
+        }
+    </script>
+</body>
+</html>
