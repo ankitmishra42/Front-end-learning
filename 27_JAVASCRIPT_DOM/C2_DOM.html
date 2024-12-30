@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>27_JAVASCRIPT_DOM</title>
+</head>
+<body>
+    
+    <h1>Clock</h1>
+    <h1 id="cl">12:12:12</h1>
+
+    <script>
+        // let con = document.getElementById('cl');
+        // setInterval(() => {
+
+        //     let date = new Date;
+        //     let hour = date.getHours()
+        //     let minut = date.getMinutes();;
+        //     let sec = date.getSeconds();
+
+        //     con.textContent = hour+':'+minut+':'+sec;
+
+        // }, 1000);
+
+
+        let con = document.getElementById('cl');
+        setInterval(fre,1000)
+        function fre(){    
+            let date = new Date;
+            let hour = date.getHours()
+            let minut = date.getMinutes();;
+            let sec = date.getSeconds();
+
+            con.textContent = hour+':'+minut+':'+sec;
+
+        };
+
+
+        // let con = document.getElementById('cl');
+        // setInterval(function(){
+            
+        //     let date = new Date;
+        //     let hour = date.getHours()
+        //     let minut = date.getMinutes();;
+        //     let sec = date.getSeconds();
+
+        //     con.textContent = hour+':'+minut+':'+sec;
+
+        // }, 1000);
+    </script>
+</body>
+</html>
